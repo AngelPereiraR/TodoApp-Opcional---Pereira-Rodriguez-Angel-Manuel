@@ -9,8 +9,8 @@ const Header = ({ toggleMode, mode }) => {
           <img
             src={`${
               mode
-                ? "src/assets/images/icon-sun.svg"
-                : "src/assets/images/icon-moon.svg"
+                ? "../assets/images/icon-sun.svg"
+                : "../assets/images/icon-moon.svg"
             }`}
             alt={`${mode ? "Change to light mode" : "Change to dark mode"}`}
           />

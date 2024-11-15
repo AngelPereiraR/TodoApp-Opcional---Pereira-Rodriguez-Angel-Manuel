@@ -64,11 +64,11 @@ function App() {
         className={`w-screen h-1/4 bg-cover bg-center absolute top-0 left-0 ${
           isMobile
             ? mode
-              ? 'bg-[url("src/assets/images/bg-mobile-dark.jpg")]'
-              : 'bg-[url("src/assets/images/bg-mobile-light.jpg")]'
+              ? 'bg-[url("../assets/images/bg-mobile-dark.jpg")]'
+              : 'bg-[url("../assets/images/bg-mobile-light.jpg")]'
             : mode
-            ? 'bg-[url("src/assets/images/bg-desktop-dark.jpg")]'
-            : 'bg-[url("src/assets/images/bg-desktop-light.jpg")]'
+            ? 'bg-[url("../assets/images/bg-desktop-dark.jpg")]'
+            : 'bg-[url("../assets/images/bg-desktop-light.jpg")]'
         }`}
         style={{ height: isMobile ? "220px" : "230px" }}
       ></div>

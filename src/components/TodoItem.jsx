@@ -32,7 +32,7 @@ const TodoItem = ({
         }}
       >
         {todo.completed ? (
-          <img src="src/assets/images/icon-check.svg" alt="Completed" />
+          <img src="../assets/images/icon-check.svg" alt="Completed" />
         ) : (
           <div
             className="h-4 w-4 rounded-full bg-white"
